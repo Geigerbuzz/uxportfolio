@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dora Dereli" />
+
+    <!-- Title -->
+    <title>Dora Dereli - UX &amp; UI Designer</title>
+
+    <!-- Stylesheet and favicon -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+</head>
+
+<body data-theme="light">
+    <!-- Header and navigation -->
+    <header class="header">
+        <a href="index.html" class="logo">Dora Dereli</a>
+        <nav>
+            <a href="profile.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="mood.html">Mood Room</a>
+        </nav>
+
+        <!-- Theme toggle button -->
+        <button id="theme-toggle">
+            <!-- SVG icon for theme toggle -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+                <g id="theme-toggle-dark">
+                    <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z" />
+                </g>
+                <g id="theme-toggle-light">
+                    <circle cx="12" cy="12" r="5" />
+                    <path
+                        d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+                </g>
+            </svg>
+            <span class="u-visually-hidden">Toggle theme</span>
+        </button>
+    </header>
+
+    <!-- Main content -->
+    <main class="container home-page">
+        <!-- Hero section -->
+        <section class="section home-hero">
+            <div class="orbs">
+                <div id="orb1"></div>
+                <div id="orb2"></div>
+                <div id="orb3"></div>
+            </div>
+            <h1>Just a UX & UI Designer that wants to bring personalized experiences to the end user</h1>
+            <p>👋 Hello! I am Dora Dereli, a UX-focused developer based in Barcelona. I'm currently working at Caswo
+                building the next-generation of B2B business tools.</p>
+            <p>
+                <a href="profile.html">View profile →</a>
+            </p>
+        </section>
+
+        <!-- Projects section -->
+        <section class="section">
+            <h2>Overview</h2>
+            <!-- Cataclysm Engine project -->
+            <div class="selected-project" href="/projects/year-in-monzo-2020/">
+                <figure>
+                    <img src="engine1.png" alt="Cataclysm Engine" />
+                </figure>
+                <div>
+                    <h3 style="font-size:22px;"><b>Cataclysm Engine</b></h3>
+                    <p>This project was one of my first ever UX design projects as I was responsible for designing the
+                        loading screen, main home icon and desktop icon for an up coming open-source and community
+                        backed game engine (release Q1 2024). <br></br>
+                        As per my design philosophy and the request of my client, these icons had to be as minimal as
+                        possible, as they had to be highly modular and scalable to be utilized in diffrent form factors.
+                    </p>
+
+                    <a class="read-more">Read more →</a>
+                </div>
+            </div>
+            <!-- Monzo Web Banking project -->
+            <div class="selected-project" href="/projects/monzo-web-banking/">
+                <figure>
+                    <img src="icons.jpg" alt="Arsela Os" />
+                </figure>
+                <div>
+                    <h3 style="font-size:22px;"><b>Arsela Os Desktop Environment</b></h3>
+                    <p>This project is very unique, I’m one of the founders of the Arsela Os Desktop Enviroment, it's
+                        built from the ground up Desktop Enviroment for Windows 10 and 11 (Mac Os port TBD), allowing
+                        users to have a brand desktop experience. <br></br>
+                        It’s highly customizable and lightweight, and I’m proud to say that over 80% of all visual
+                        elements are made by yours truly, me. Having full control over every design element is a great
+                        opportunity.<br><br></p>
+                    <a class="read-more">Read more →</a>
+                </div>
+            </div>
+            <!-- Design Kit project -->
+            <div class="selected-project" href="/projects/monzo-design-kit/">
+                <figure>
+                    <img src="passnote.jpg" alt="Passnote" />
+                </figure>
+                <div>
+                    <h3 style="font-size:22px;"><b>Passnote App Concept</b></h3>
+                    <p>This is a not solo-project from me, I found myself brainstorming ideas for a swift file and text
+                        sharing applet or Chrome extension so I decided to form my ideas into a concept UI. <br></br>
+                        Development is not just my career but also one of my biggest hobbies, so I look forward to
+                        developing this further and releasing the beta.<br><br></p>
+
+                        <a class="read-more">Read more →</a>
+                </div>
+            </div>
+            <!-- Chocolates card -->
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">I'm like a box of chocolates...</h3>
+                    <h4 class="card-subtitle"></h4>
+                </div>
+                <i class="fa-solid fa-hat-witch card-icon"></i>
+            </div>
+            <p>
+                <a href="mood.html" class="read-more">Check out my digital Mood Room →</a>
+            </p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about-me" class="section">
+            <h2 class="gradient-title">About Me</h2>
+            <p>My name is Dora Dereli, I'm from Barcelona and I've been working on personal/collaborative projects both
+                professionally in start-ups and in development groups.</p>
+            <p>I'm a passionate UX designer driven to create seamless experiences that delight users! My knack for
+                tackling challenges comes from in-depth research, insightful user feedback, and crafting personas to
+                understand their needs. By constantly iterating designs, I've delivered user-focused solutions that
+                boost satisfaction and propel business growth. Let's innovate together!</p>
+        </section>
+
+        <!-- Skills and Tools Section -->
+        <section id="skills-tools" class="section">
+            <h2 class="gradient-title">Skills & Tools</h2>
+            <ul>
+                <li>Empathy and User Advocacy</li>
+                <li>Visual Storytelling</li>
+                <li>Rapid Prototyping</li>
+                <li>Front-End Development</li>
+                <li>Effective Communication</li>
+                <li>Adaptability and Receptiveness</li>
+                <li>Figma and Wireframing Proficiency</li>
+                <li>Project Management Skills</li>
+            </ul>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <h2 class="gradient-title">Testimonials</h2>
+            <blockquote>
+                <p>"Dora is a very creative man with a lot of UX expertise. Always prioritizes simplicity and usability,
+                    creating great experiences in all user related things."</p>
+                <footer>- Emilia Penaloza, CTO/Arsela Os Team</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Thanks to Dora's design prowess and data-driven approach, our website overhaul saw a substantial
+                    boost in user engagement and satisfaction."</p>
+                <footer>- Atakan Ozsay, COO/Caswo Digital</footer>
+            </blockquote>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact" class="section">
+            <h2 class="gradient-title">Contact Information</h2>
+            <p>Email: <a href="mailto:doradereli@gmail.com">doradereli@gmail.com</a></p>
+            <p>LinkedIn: <a
+                    href="https://www.linkedin.com/in/dora-dereli-13980523b/">https://www.linkedin.com/in/dora-dereli-13980523b/</a>
+            </p>
+        </section>
+
+        <!-- Resume/CV Section -->
+        <section id="resume" class="section">
+            <h2 class="gradient-title">Resume/CV</h2>
+            <p><a href="DoraCV.pdf" download>Download my resume (PDF)</a></p>
+        </section>
+    </main>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

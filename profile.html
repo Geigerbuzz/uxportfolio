@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title and Author -->
+  <title>Dora Dereli - UX &amp; UI Designer</title>
+  <meta name="author" content="Dora Dereli" />
+
+  <!-- Styles and Favicon -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/static/favicon.png">
+</head>
+<body data-theme="light">
+  <!-- Header -->
+  <header class="header">
+    <!-- Logo -->
+    <a href="index.html" class="logo">Dora Dereli</a>
+    
+    <!-- Navigation -->
+    <nav>
+      <a href="profile.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="mood.html">Mood Room</a>
+    </nav>
+    
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+        <g id="theme-toggle-dark">
+          <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z" />
+        </g>
+        <g id="theme-toggle-light">
+          <circle cx="12" cy="12" r="5" />
+          <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+        </g>
+      </svg>
+      <span class="u-visually-hidden">Toggle theme</span>
+    </button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container home-page">
+    <!-- Home Hero Section -->
+    <section class="section home-hero">
+      <div class="orbs">
+        <div id="orb1"></div>
+        <div id="orb2"></div>
+        <div id="orb3"></div>
+      </div>
+      <h1>About Me</h1>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="intro" class="content-wrapper">
+      <img src="profile.jpg" alt="Dora Dereli" class="profile-picture" id="dora-profile">
+      <p>Hello! I'm Dora Dereli, a UX/UI designer based in Barcelona. I love creating user-centric and visually appealing experiences.Currently studying computer science, specializing in web and mobile app design.</p>
+    </section>
+
+    <!-- Skills & Expertise Section -->
+    <section id="skills-tools" class="section"></section>
+      <h2 class="gradient-title">Skills &amp; Expertise</h2>
+      <ul>
+        <li>User Research</li>
+        <li>Wireframing &amp; Prototyping</li>
+        <li>Usability Testing</li>
+        <li>Interaction Design</li>
+        <li>Sketch, Figma, Adobe XD</li>
+      </ul>
+    </section>
+
+    <!-- Design Philosophy Section -->
+    <section class="philosophy" id="contact">
+      <h2 class="gradient-title">Design Philosophy</h2>
+      <p>I believe in creating user-centric designs that solve real-world problems, focusing on usability, accessibility, and aesthetics to enhance user experiences.</p>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Apple App Marketing Certificate</li>
+        <li>MIT Python & Computer Science Certificate</li>
+      </ul>
+    </section>
+
+    <!-- Meet My Heroes Section -->
+    <div class="meet-heroes">
+      <h2 class="gradient-title">Meet My Heroes</h2>
+      <div class="heroes-container">
+        <div class="hero">
+          <img src="https://i.pinimg.com/originals/80/09/86/8009860a09d7c0ece7c30487a2ac58e1.jpg" alt="Hero 1" class="hero-image">
+          <h3>Dieter Rams</h3>
+          <p>He is single handedly reponsible for bringing industrial minimalistic design to the masses, influincing the likes of Steve Jobs.</p>
+        </div>
+        <div class="hero">
+          <img src="https://d2snyq93qb0udd.cloudfront.net/prod/12988_Social.jpg" alt="Hero 2" class="hero-image">
+          <h3>Horacio Pagani</h3>
+          <p>Founder of Pagani Automotive, known for his artisan crafts and unmatched attention to detail and User experience.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Personal Interests Section -->
+    <section class="interests">
+      <h2 class="gradient-title">Personal Interests</h2>
+      <p>Outside of design, my biggest hobby is listening and making music! I think the type of music one listens to really says a lot about yout personality, feel free to check out my personal playlist below =]</p>
+    </section>
+    <!-- Music Table Section -->
+    <table class="rounded-table row-link" id="music-table">
+      <thead>
+        <tr>
+          <th>Cover Art</th>
+          <th>Song Title</th>
+          <th>Artist</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr data-href="https://music.youtube.com/watch?v=mPGv8L3a_sY&feature=share">
+            <td><img src="https://www.musik-sammler.de/cover/1083000/1082913_1603736151.jpg" alt="Cover Art" class="song-cover"></td>
+            <td>The Great Big Gig In The Sky</td>
+            <td>Pink Floyd</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=V8goep7fVXk&feature=share" data-href="https://music.youtube.com/watch?v=V8goep7fVXk&feature=share" target="_blank">Link</a>
+              <img src="https://images.genius.com/0dda2d58d7903c20f9779527250c47bf.600x600x1.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Brazil</td>
+            <td>Antonio Carlos Jobim</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=1hrgT_ZDUvs&feature=share" data-href="https://music.youtube.com/watch?v=1hrgT_ZDUvs&feature=share" target="_blank">Link</a>
+              <img src="https://wom.de/image/w600/front/0/0081227996956.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Riders On The Storm</td>
+            <td>The Doors</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=8AHQMzWd5WU&feature=share" data-href="https://music.youtube.com/watch?v=8AHQMzWd5WU&feature=share" target="_blank">Link</a>
+              <img src="https://s3.amazonaws.com/images.sheetmusicdirect.com/Product/smd_h_0000000000165080/large.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Let 'Em In</td>
+            <td>Paul McCartney & Wings</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=4Hvvltt7d-U&feature=share" data-href="https://music.youtube.com/watch?v=4Hvvltt7d-U&feature=share" target="_blank">Link</a>
+              <img src="https://th.bing.com/th/id/R.b5e723eb6b9f91657c584494599559c5?rik=aVimUAwTWOuQDw&pid=ImgRaw&r=0" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Midnight Rendezvous</td>
+            <td>Casiopea</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=b5EZp76Oxhw&feature=share" data-href="https://music.youtube.com/watch?v=b5EZp76Oxhw&feature=share" target="_blank">Link</a>
+              <img src="https://cdn.smehost.net/formeleinstv-deprod/wp-content/uploads/2014/12/3tes-album.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Brother Louie</td>
+            <td>Modern Talking</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=yNtMAkS1NHI&feature=share" data-href="https://music.youtube.com/watch?v=yNtMAkS1NHI&feature=share" target="_blank">Link</a>
+              <img src="https://i.pinimg.com/originals/f5/d5/48/f5d5489f609befb76412db593ae5f250.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Dancing In The Moonlight</td>
+            <td>King Harvest</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=EmuBOfurv3o&feature=share" data-href="https://music.youtube.com/watch?v=EmuBOfurv3o&feature=share" target="_blank">Link</a>
+              <img src="https://www.musik-sammler.de/cover/1383000/1382506_1547321516.jpg" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Tusk</td>
+            <td>Fleetwood Mac</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://music.youtube.com/watch?v=xUNqsfFUwhY&feature=share" data-href="https://music.youtube.com/watch?v=xUNqsfFUwhY&feature=share" target="_blank">Link</a>
+              <img src="https://th.bing.com/th/id/OIP.TVdRt9n6kOMZa1U3kO1W1wHaHa?pid=ImgDet&w=1024&h=1024&rs=1" alt="Cover Art" class="song-cover">
+            </td>
+            <td>Here Comes The Sun</td>
+            <td>The Beatles</td>
+          </tr>
+      </tbody>
+    </table>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
