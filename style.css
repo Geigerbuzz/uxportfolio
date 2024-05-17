@@ -234,6 +234,10 @@ a[href^="https://dribbble.com"] {
     justify-content: space-around;
     padding: 1rem;
   }
+
+  .selected-project div:hover{
+    box-shadow: 0 0 15px var(--color-glow);
+  }
   
   .selected-project p {
     font-size: 1rem;
@@ -241,7 +245,6 @@ a[href^="https://dribbble.com"] {
     margin-left: 30px;
     text-align: justify;
   }
-
   
   code[class*='language-'],
   pre[class*='language-'] {
@@ -447,6 +450,10 @@ pre>code.highlight {
   margin-right: 2rem;
 }
 
+.profile-picturee {
+  margin-left: 2rem;
+}
+
 .orbs {
     display: flex;
     align-items: center;
@@ -569,20 +576,11 @@ pre>code.highlight {
     }
 }
 
-@font-face {
-    font-family: 'Neue Haas Unica';
-    src: url(/static/fonts/NeueHaasUnica-Medium.woff2) format("woff2"),url(/static/fonts/NeueHaasUnica-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica';
-    src: url(/static/fonts/NeueHaasUnica-Regular.woff2) format("woff2"),url(/static/fonts/NeueHaasUnica-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
+.dm-sans-<font> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
 }
 
 * {
@@ -654,6 +652,7 @@ body {
   .card:hover:before {
     background-position: 100% 100%;
     transform: scale(1.08, 1.03);
+    border-radius: 8px;
   }
   
   .card:hover > .card-content {
@@ -909,6 +908,7 @@ body {
     text-indent: -9999px;
   }
   
+/* Inspiration page boxes */
   .meet-heroes {
     text-align: center;
     margin: 40px 0;
@@ -921,7 +921,7 @@ body {
   }
   
   .hero {
-    width: 300px;
+    width: 400px;
     box-sizing: border-box;
     padding: 20px;
     margin: 20px;
@@ -945,4 +945,12 @@ body {
     height: auto;
     border-radius: 20px;
   }
+
+.titlespcr {
+  margin-bottom: 130.8px;
+}
+
+.titlespcrr {
+  margin-bottom: 50px;
+}
   
